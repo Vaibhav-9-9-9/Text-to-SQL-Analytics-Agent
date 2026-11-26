@@ -1,0 +1,51 @@
+# Environment variables (Never commit API keys)
+.env
+.env.local
+.env.*.local
+
+# Python cache & build
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.pytest_cache/
+build/
+dist/
+*.egg-info/
+
+# Streamlit
+.streamlit/secrets.toml
+
+# Virtual environments
+venv/
+env/
+.venv/
+ENV/
+
+# Large database files (generated locally via python data/generate_data.py)
+*.db
+*.sqlite
+*.sqlite3
+
+# Logs & temp files
+*.log
+*.tmp
+
+# Office temporary files (created when Excel is open)
+~$*.xlsx
+~$*.docx
+
+# OS specific files
+.DS_Store
+Thumbs.db
+ehthumbs.db
+
+# IDE specific files
+.vscode/
+.idea/
+*.swp
+*~
+
+# Submission archives
+*.zip
+submission/
